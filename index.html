@@ -44,7 +44,7 @@
     .title {
       color: #94a3b8;
       font-size: 17px;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       line-height: 1.5;
     }
     
@@ -60,6 +60,7 @@
       display: flex;
       flex-direction: column;
       gap: 12px;
+      margin-bottom: 30px;
     }
     
     .link {
@@ -69,10 +70,6 @@
       border-radius: 16px;
       text-decoration: none;
       font-weight: 600;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
       transition: 0.3s;
       border: 1px solid rgba(255,255,255,0.1);
     }
@@ -80,6 +77,32 @@
     .link:hover {
       background: #64748b;
       transform: translateY(-3px);
+    }
+
+    /* زر الخدمات بالذكاء الاصطناعي */
+    .ai-btn {
+      position: fixed;
+      bottom: 25px;
+      left: 25px;
+      background: linear-gradient(135deg, #10b981, #34d399);
+      color: white;
+      padding: 16px 24px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 17px;
+      box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
+      text-decoration: none;
+      z-index: 100;
+      transition: 0.3s;
+    }
+    
+    .ai-btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 15px 35px rgba(16, 185, 129, 0.5);
     }
   </style>
 </head>
@@ -96,12 +119,17 @@
     
     <div class="links">
       <a href="tel:0599522222" class="link">☎️ اتصال مباشر - 0599522222</a>
-      <a href="https://wa.me/966504816165" class="link">📲 واتساب أعمال - 0504816165</a>
-      <a href="https://x.com/Asemwhats" class="link" target="_blank">🐦 منصة X - @Asemwhats</a>
-      <a href="https://t.me/alasemy" class="link" target="_blank">📱 تليجرام - alasemy</a>
-      <a href="https://snapchat.com/add/rrqqll" class="link" target="_blank">👻 سناب شات - rrqqll</a>
-      <a href="mailto:wewin@outlook.sa" class="link" target="_blank">✉️ wewin@outlook.sa</a>
+      <a href="https://wa.me/966504816164" class="link">📲 واتساب أعمال</a>
+      <a href="https://x.com/Asemwhats" class="link" target="_blank">🐦 منصة X</a>
+      <a href="https://t.me/alasemy" class="link" target="_blank">📱 تليجرام</a>
+      <a href="https://snapchat.com/add/rrqqll" class="link" target="_blank">👻 سناب شات</a>
+      <a href="mailto:wewin@outlook.sa" class="link" target="_blank">✉️ البريد الإلكتروني</a>
     </div>
   </div>
+
+  <!-- زر الخدمات بالذكاء الاصطناعي -->
+  <a href="https://poe.com" target="_blank" class="ai-btn">
+    🤖 خدمات أخرى بالذكاء الاصطناعي
+  </a>
 </body>
 </html>
