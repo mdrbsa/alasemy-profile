@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>محمد حمد العاصمي</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+    
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    
+    .profile {
+      background: rgba(255,255,255,0.06);
+      backdrop-filter: blur(12px);
+      border-radius: 24px;
+      padding: 40px 30px;
+      width: 100%;
+      max-width: 440px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.1);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+    }
+    
+    .avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 5px solid #00cc88;
+      margin-bottom: 20px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0, 204, 136, 0.3);
+    }
+    
+    h1 { margin: 10px 0 8px; font-size: 28px; }
+    
+    .title {
+      color: #00ffaa;
+      font-size: 19px;
+      margin-bottom: 25px;
+      font-weight: 600;
+    }
+    
+    .bio {
+      line-height: 1.8;
+      color: #ddd;
+      margin-bottom: 35px;
+      font-size: 16.5px;
+    }
+    
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    
+    .link {
+      background: rgba(255,255,255,0.09);
+      color: white;
+      padding: 16px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s;
+      font-size: 16px;
+    }
+    
+    .link:hover {
+      background: #00ffaa;
+      color: #000;
+      transform: translateY(-4px);
+    }
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <img src="https://ibb.co/Ktvztv3" alt="محمد حمد العاصمي" class="avatar">
+    
+    <h1>محمد حمد العاصمي</h1>
+    <p class="title">رائد أعمال</p>
+    
+    <p class="bio">
+      مهتم بالتقنية والذكاء الاصطناعي، ومؤلف. <br>
+      أسعى للمساهمة في تحقيق رؤية المملكة 2030 من خلال الابتكار وريادة الأعمال.
+    </p>
+    
+    <div class="links">
+      <a href="https://x.com/alasemy" class="link" target="_blank">🐦 منصة X - @alasemy</a>
+      <a href="https://t.me/alasemy" class="link" target="_blank">📱 تليجرام - alasemy</a>
+      <a href="mailto:Alasemy@outlook.sa" class="link" target="_blank">✉️ Alasemy@outlook.sa</a>
+      <a href="https://wa.me/966599522222" class="link" target="_blank">📲 واتساب أعمال</a>
+      <a href="tel:0599522222" class="link" target="_blank">☎️ اتصال مباشر - 0599522222</a>
+    </div>
+  </div>
+</body>
+</html>
