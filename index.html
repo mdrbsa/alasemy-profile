@@ -9,7 +9,7 @@
     
     body {
       font-family: 'Cairo', sans-serif;
-      background: linear-gradient(135deg, #0a0a0a, #1f2937);
+      background: linear-gradient(135deg, #0f172a, #1e2937);
       color: #fff;
       margin: 0;
       padding: 20px;
@@ -21,88 +21,89 @@
     
     .profile {
       text-align: center;
-      max-width: 460px;
+      max-width: 480px;
       width: 100%;
+      background: rgba(15, 23, 42, 0.95);
+      border-radius: 28px;
+      padding: 45px 35px;
+      border: 1px solid #475569;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.5);
     }
     
     .avatar {
-      width: 210px;
-      height: 210px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
       border: 6px solid #64748b;
-      margin-bottom: 25px;
+      margin-bottom: 22px;
       box-shadow: 0 15px 35px rgba(0,0,0,0.6);
       object-fit: cover;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     h1 {
-      font-size: 28px;
-      margin: 10px 0 8px;
+      font-size: 27px;
+      margin: 0 0 6px 0;
       font-weight: 700;
+      line-height: 1.2;
     }
     
     .title {
       color: #94a3b8;
-      font-size: 17px;
-      margin-bottom: 25px;
-      line-height: 1.5;
+      font-size: 16.5px;
+      margin-bottom: 28px;
+      line-height: 1.4;
     }
     
     .bio {
-      line-height: 1.85;
+      line-height: 1.8;
       color: #e2e8f0;
-      margin-bottom: 40px;
-      font-size: 16px;
+      margin-bottom: 38px;
+      font-size: 15.5px;
       text-align: justify;
     }
     
     .links {
       display: flex;
       flex-direction: column;
-      gap: 12px;
-      margin-bottom: 30px;
+      gap: 11px;
     }
     
     .link {
-      background: rgba(255,255,255,0.08);
+      background: rgba(148, 163, 184, 0.1);
       color: #fff;
-      padding: 16px 20px;
-      border-radius: 16px;
+      padding: 15px 18px;
+      border-radius: 14px;
       text-decoration: none;
       font-weight: 600;
+      font-size: 15.5px;
       transition: 0.3s;
-      border: 1px solid rgba(255,255,255,0.1);
+      border: 1px solid rgba(148, 163, 184, 0.2);
     }
     
     .link:hover {
-      background: #64748b;
-      transform: translateY(-3px);
+      background: #475569;
+      transform: translateY(-2px);
     }
 
-    /* زر الخدمات بالذكاء الاصطناعي */
     .ai-btn {
       position: fixed;
-      bottom: 25px;
-      left: 25px;
+      bottom: 22px;
+      left: 22px;
       background: linear-gradient(135deg, #10b981, #34d399);
       color: white;
-      padding: 16px 24px;
+      padding: 14px 22px;
       border-radius: 50px;
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 10px;
+      gap: 9px;
       font-weight: 700;
-      font-size: 17px;
-      box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
+      font-size: 15.5px;
+      box-shadow: 0 10px 25px rgba(16, 185, 129, 0.4);
       text-decoration: none;
       z-index: 100;
-      transition: 0.3s;
-    }
-    
-    .ai-btn:hover {
-      transform: scale(1.08);
-      box-shadow: 0 15px 35px rgba(16, 185, 129, 0.5);
     }
   </style>
 </head>
@@ -114,7 +115,7 @@
     <p class="title">مبتكر ورائد أعمال تقني | خبير مجتمعات رقمية وAI</p>
     
     <p class="bio">
-      مبتكر ورائد أعمال تقني، يسخّر الذكاء الاصطناعي لصناعة الشخصيات وصقل مواهب الشباب وتنميتهم. يقود مع فريق عمل ناجح ودؤوب مجتمعات رقمية هادفة بروح تطوعية وإيجابية، ملتزماً بتذليل الصعاب عبر حلول مبتكرة ومؤلفات تلهم التطوير والبناء.
+      تطوير القدرات البشرية وصناعة الفرص وتمكين المواهب بالذكاء الاصطناعي. يقود مع فريق عمل ناجح ودؤوب مجتمعات رقمية هادفة بروح تطوعية وإيجابية، ملتزماً بتذليل الصعاب عبر حلول مبتكرة ومؤلفات تلهم التطوير والبناء.
     </p>
     
     <div class="links">
@@ -127,9 +128,9 @@
     </div>
   </div>
 
-  <!-- زر الخدمات بالذكاء الاصطناعي -->
+  <!-- زر الشات بوت -->
   <a href="https://poe.com" target="_blank" class="ai-btn">
-    🤖 خدمات أخرى بالذكاء الاصطناعي
+    🤖 تحدث مع الذكاء الاصطناعي
   </a>
 </body>
 </html>
